@@ -332,7 +332,7 @@ if IS_WINDOWS:
         IS_WINDOWS = False
 
 # Load config
-CONFIGS_FOLDER = CURRENT_DIR / "configs_folder"
+CONFIGS_FOLDER = CURRENT_DIR / "configs"
 SETTINGS_PATH = CONFIGS_FOLDER / "settings.json"
 if not SETTINGS_PATH.exists():
     raise FileNotFoundError(f"Config not found: {SETTINGS_PATH}")
