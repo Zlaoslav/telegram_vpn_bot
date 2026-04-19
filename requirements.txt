@@ -1,0 +1,5 @@
+aiohttp-socks
+aiogram
+aiosqlite
+requests
+discord
